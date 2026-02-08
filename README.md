@@ -19,8 +19,8 @@ A lightweight, dependency-free wrapper for Android's `HttpURLConnection`. It sim
    ```xml
    <uses-permission android:name="android.permission.INTERNET" />
    
-#Usage Examples 
-##​GET Request
+# Usage Examples 
+##​ GET Request
 ```java
 HashMap<String, String> params = new HashMap<>();
 params.put("user_id", "101");
@@ -30,7 +30,7 @@ HttpRequest.GET("[https://api.example.com/data](https://api.example.com/data)", 
     Log.d("API", "Response: " + response);
 });
 ```
-##POST Request
+## POST Request
 ```java
 HashMap<String, String> params = new HashMap<>();
 params.put("username", "malek");
