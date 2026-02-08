@@ -20,7 +20,8 @@ A lightweight, dependency-free wrapper for Android's `HttpURLConnection`. It sim
    <uses-permission android:name="android.permission.INTERNET" />
    
 # Usage Examples 
-##​ GET Request
+
+## GET Request
 ```java
 HashMap<String, String> params = new HashMap<>();
 params.put("user_id", "101");
